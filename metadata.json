@@ -2,7 +2,7 @@
   "uuid": "stop-notifications-focus-stealing@VitalyOstanin",
   "name": "Stop Notifications Focus Stealing",
   "description": "Prevents notification banners from stealing keyboard focus when the mouse pointer hovers over them. GNOME Shell normally grabs keyboard focus onto a notification banner on hover, so keystrokes are redirected away from the window you are typing in. This extension disables only that focus grab, leaving notifications otherwise unchanged.",
-  "shell-version": ["45", "46", "47", "48", "49"],
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
   "url": "https://github.com/VitalyOstanin/stop-notifications-focus-stealing",
   "version": 1
 }

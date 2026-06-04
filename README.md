@@ -69,11 +69,11 @@ gnome-extensions enable stop-notifications-focus-stealing@VitalyOstanin
 
 ## Compatibility
 
-Supports GNOME Shell 45 through 49. The overridden method
+Supports GNOME Shell 45 through 50. The overridden method
 `_ensureBannerFocused()` and its single path to `FocusGrabber.grabFocus()` were
 verified to be identical in the latest point release of each branch (45.10,
-46.10, 47.10, 48.8, 49.7); the extension itself was run on 46.2. GNOME 45 is the
-lower bound because the ESM-based extension API (`Extension`,
+46.10, 47.10, 48.8, 49.7, 50.2); the extension itself was run on 46.2. GNOME 45
+is the lower bound because the ESM-based extension API (`Extension`,
 `InjectionManager`) was introduced in that release. New versions are added only
 after checking that the overridden method still exists in their source (see
 `TODO.md`).

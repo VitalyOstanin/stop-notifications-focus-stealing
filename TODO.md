@@ -16,14 +16,14 @@
     `_expandBanner`, and leads to `FocusGrabber.grabFocus()` (i.e. the no-op
     override still removes the focus grab).
   - Verified against the latest point release of each branch: 45.10, 46.10,
-    47.10, 48.8, 49.7. In all versions the method, its body
+    47.10, 48.8, 49.7, 50.2. In all versions the method, its body
     (`this._notificationFocusGrabber.grabFocus()`) and both call sites are
     identical. The class is exported as `export const MessageTray`, so
     `MessageTray.MessageTray.prototype` resolves the same way.
   - Lower bound 45: the ESM extension API (`Extension`, `InjectionManager`) was
     introduced in gnome-shell 45.
 - [x] Extend the `shell-version` array in `metadata.json` to
-      `["45", "46", "47", "48", "49"]`.
+      `["45", "46", "47", "48", "49", "50"]`.
 
 ## Publishing
 
